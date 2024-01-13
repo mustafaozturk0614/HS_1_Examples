@@ -57,6 +57,6 @@ public class Question27 {
         System.out.println("toplam3==> "+toplam3);
 
     }
-    
+
   //  Integer,Double,Boolean,Long,Float,Character,Byte
 }
