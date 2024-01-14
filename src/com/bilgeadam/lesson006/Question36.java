@@ -45,7 +45,6 @@ public class Question36 {
             }
         }
         return  isim;
-
     }
 
 
