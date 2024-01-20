@@ -19,7 +19,6 @@ public class Test {
         matSinavi.tur="Test";
         matSinavi.sinavSorumlusu="Mustafa";
         matSinavi.gecmeNotu=80;
-
         matSinavi.gecmeNotuAta(65);
         matSinavi.sinavTarihiBelirle("Pazartesi");
         System.out.println(matSinavi.gecmeNotu);
