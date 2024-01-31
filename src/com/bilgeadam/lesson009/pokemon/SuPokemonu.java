@@ -1,6 +1,6 @@
-package com.bilgeadam.lesson008.pokemon;
+package com.bilgeadam.lesson009.pokemon;
 
-public class SuPokemonu extends Pokemon{
+public class SuPokemonu extends Pokemon {
     public int yuzmeHizi;
     public int suBasincGucu;
     public SuPokemonu(){
@@ -20,4 +20,10 @@ public class SuPokemonu extends Pokemon{
         this.yuzmeHizi=yuzmeHizi;
     }
 
+
+    @Override
+    public void saldir() {
+        super.saldir();
+        System.out.println( "su saldırısı yapıyor");
+    }
 }

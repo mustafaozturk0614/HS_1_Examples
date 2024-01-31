@@ -1,4 +1,4 @@
-package com.bilgeadam.lesson008.pokemon;
+package com.bilgeadam.lesson009.pokemon;
 
 public class Test2 {
 
@@ -15,19 +15,23 @@ public class Test2 {
         pokemon1.bilgileriGoster();
         System.out.println(pokemon1.voltajGucu);
 
-//        Pokemon pokemon2= new Pokemon(2,"Charizard","Ateş");
-////        pokemon2.ad="Charizard";
-////        pokemon2.tur="Ateş";
-////        pokemon2.seviye=3;
-////        pokemon2.guc=190;
-////        pokemon2.can=450;
-////        pokemon2.saldir();
-////        pokemon2.kacinma();
-//      pokemon2.bilgileriGoster();
+        Pokemon pokemon2= new Pokemon(2,"Charizard","Ateş");
+//        pokemon2.ad="Charizard";
+//        pokemon2.tur="Ateş";
+//        pokemon2.seviye=3;
+//        pokemon2.guc=190;
+//        pokemon2.can=450;
+//        pokemon2.saldir();
+//        pokemon2.kacinma();
+      pokemon2.bilgileriGoster();
 //
     SuPokemonu pokemon3=new SuPokemonu();
     pokemon3.bilgileriGoster();
         System.out.println(pokemon3.yuzmeHizi);
+
+            pokemon1.saldir();
+            pokemon2.saldir();
+            pokemon3.saldir();
 
 
 

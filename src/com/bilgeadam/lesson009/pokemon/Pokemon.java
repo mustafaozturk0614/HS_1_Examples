@@ -1,4 +1,4 @@
-package com.bilgeadam.lesson008.pokemon;
+package com.bilgeadam.lesson009.pokemon;
 
 public class Pokemon {
     public int id;
