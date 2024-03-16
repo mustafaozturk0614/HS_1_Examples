@@ -5,9 +5,9 @@ import java.util.UUID;
 public class Yuk {
     private String id;
     private double agirlik;
-    private long kabulTarihi;
+    private MyDate kabulTarihi;
 
-    public Yuk(double agirlik, long kabulTarihi) {
+    public Yuk(double agirlik, MyDate kabulTarihi) {
         this.id = UUID.randomUUID().toString();
         this.agirlik = agirlik;
         this.kabulTarihi = kabulTarihi;
@@ -29,11 +29,11 @@ public class Yuk {
         this.agirlik = agirlik;
     }
 
-    public long getKabulTarihi() {
+    public MyDate getKabulTarihi() {
         return kabulTarihi;
     }
 
-    public void setKabulTarihi(long kabulTarihi) {
+    public void setKabulTarihi(MyDate kabulTarihi) {
         this.kabulTarihi = kabulTarihi;
     }
 

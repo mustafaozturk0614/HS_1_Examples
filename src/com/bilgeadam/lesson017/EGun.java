@@ -1,6 +1,6 @@
 package com.bilgeadam.lesson017;
 
 public enum EGun {
-    PAZARTESI, SALI, CARSAMBA, PERSEMBE, CUMA, CUMARTESİ, PAZAR
+    PAZARTESI, SALI, CARSAMBA, PERSEMBE, CUMA, CUMARTESI, PAZAR
 
 }
